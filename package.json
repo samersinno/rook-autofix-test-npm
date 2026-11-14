@@ -1,0 +1,17 @@
+{
+  "name": "rook-autofix-test-npm",
+  "version": "1.0.0",
+  "description": "Tiny npm project with deliberately outdated dependencies, for testing automated dependency fixes.",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "lodash": "4.17.15",
+    "minimist": "1.2.5"
+  }
+}
